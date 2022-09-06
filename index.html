@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Talk</title>
+    <style>
+      textarea {
+        width: 90%;
+        height: 10vh;
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+      }
+      #output {
+        border: 1px solid black;
+        padding: 1rem;
+        margin: 1rem;
+        width: 80%;
+        height: 10vh;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Banana Talk</p>
+    <textarea
+      id="txt-input"
+      placeholder="Enter the text and it will be converted."
+    ></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="font-size: larger">Output will come here 👇</div>
+    <div id="output"></div>
+    <script src="app.js" rel="text/javascript"></script>
+  </body>
+</html>
