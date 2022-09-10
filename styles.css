@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+:root {
+  --primary-color: #65a30d;
+  --dark-gray: #737373;
+  --off-white: #e5e5e5;
+}
+body {
+  margin: 0;
+  font-family: "Combo", cursive;
+}
+.hero {
+  padding: 1rem;
+  /* padding-top: 1rem; */
+  background-color: #ffdb58;
+}
+.hero .hero-heading {
+  text-align: center;
+  color: rgb(43, 41, 41);
+  /* padding-top: 1rem; */
+  font-weight: bold;
+  font-size: 1.75rem;
+  /* color: rgb(242, 242, 23); */
+}
+
+.center {
+  padding: 0rem 1rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.center .centered_container {
+  border: var(--primary-color) solid 2px;
+  margin: auto;
+  max-width: 600px;
+}
+
+::placeholder {
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: "Combo", cursive;
+}
+
+.center #translate-text-btn {
+  font-family: "Combo", cursive;
+  border: var(--dark-gray) solid 2px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #ffdb58;
+}
+
+#output {
+  border: 1px solid black;
+  padding: 1rem;
+  /* margin: 1rem; */
+  max-width: 600px;
+  height: 5vh;
+  margin: auto;
+
+  margin-bottom: 4.3rem;
+}
+
+/* .hero .center {
+  margin: 0;
+  font-size: 0.75em;
+  margin-block-start: 0rem;
+  margin-block-end: 0em;
+} */
+
+.hero #para {
+  max-width: 600px;
+  margin: auto;
+}

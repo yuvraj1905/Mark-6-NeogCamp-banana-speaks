@@ -4,33 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Banana Talk</title>
     <style>
       textarea {
-        width: 90%;
-        height: 10vh;
+        width: 600px;
+        height: 15vh;
         display: block;
         margin: 1rem;
         padding: 1rem;
       }
-      #output {
-        border: 1px solid black;
-        padding: 1rem;
-        margin: 1rem;
-        width: 80%;
-        height: 10vh;
-      }
     </style>
   </head>
   <body>
-    <p>Banana Talk</p>
-    <textarea
-      id="txt-input"
-      placeholder="Enter the text and it will be converted."
-    ></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger">Output will come here 👇</div>
-    <div id="output"></div>
+    <div class="hero">
+      <h1 class="hero-heading">
+        <span style="font-size: larger">Banana</span>
+        <span style="color: var(--primary-color)">speaks</span>
+      </h1>
+    </div>
+
+    <div class="center">
+      <textarea
+        class="centered_container"
+        placeholder="Enter the text and it will be converted."
+      ></textarea>
+    </div>
+
+    <div class="center">
+      <button id="translate-text-btn">Translate</button>
+    </div>
+    <div class="center" style="font-size: larger">Output will come here 👇</div>
+    <div class="center" id="output"></div>
+
+    <div class="hero">
+      <h2 class="hero-heading">about</h2>
+      <h4 id="para">
+        Hey are you a fan of Minnions? Did you know gibberish they say is an
+        interesting language. Use the translator to convert your text from
+        English to Minion speech Banana language
+      </h4>
+    </div>
     <script src="app.js" rel="text/javascript"></script>
   </body>
 </html>
