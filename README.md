@@ -1,8 +1,9 @@
 # Banana-Talk-Translation (Mark-6-NeogCamp)
 
-- About the App
-  This is a translation app that converts text from english to minion's language.
-  Live link is added in the link section of this repo. Do check out!
+## About the App:
+
+- This is a translation app that converts text from english to minion's language.
+- Live link is added in the link section of this repo. Do check out!
 
 # Tech Stack Used:
 
